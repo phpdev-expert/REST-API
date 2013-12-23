@@ -1,0 +1,2222 @@
+2013/10/04 08:12:03 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\wamp\www\restapi\framework\YiiBase.php:347
+Stack trace:
+#0 C:\wamp\www\restapi\app\protected\extensions\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\wamp\www\restapi\framework\YiiBase.php(320): require('C:\wamp\www\res...')
+#2 C:\wamp\www\restapi\framework\web\CController.php(468): YiiBase::import('ext.RestfullYii...', true)
+#3 C:\wamp\www\restapi\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\wamp\www\restapi\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('console/REST.GE...')
+#7 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/restapi/app/index.php/api/console
+---
+2013/10/04 08:17:55 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\wamp\www\restapi\framework\YiiBase.php:347
+Stack trace:
+#0 C:\wamp\www\restapi\app\protected\extensions\starship\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\wamp\www\restapi\framework\YiiBase.php(320): require('C:\wamp\www\res...')
+#2 C:\wamp\www\restapi\framework\web\CController.php(468): YiiBase::import('ext.starship.Re...', true)
+#3 C:\wamp\www\restapi\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\wamp\www\restapi\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('console/REST.GE...')
+#7 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/restapi/app/index.php/api/console
+---
+2013/10/04 10:05:32 [error] [exception.CException] exception 'CException' with message 'Alias "RestfullYii.actions.ERestBaseAction" is invalid. Make sure it points to an existing directory or file.' in C:\wamp\www\restapi\framework\YiiBase.php:347
+Stack trace:
+#0 C:\wamp\www\restapi\app\protected\extensions\starship\RestfullYii\actions\ERestActionProvider.php(2): YiiBase::import('RestfullYii.act...')
+#1 C:\wamp\www\restapi\framework\YiiBase.php(320): require('C:\wamp\www\res...')
+#2 C:\wamp\www\restapi\framework\web\CController.php(468): YiiBase::import('ext.starship.Re...', true)
+#3 C:\wamp\www\restapi\framework\web\CController.php(417): CController->createActionFromMap(Array, 'REST.GET', 'REST.GET')
+#4 C:\wamp\www\restapi\framework\web\CController.php(259): CController->createAction('REST.GET')
+#5 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#6 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('console/REST.GE...')
+#7 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/restapi/app/index.php/api/console
+---
+2013/10/04 10:07:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('game/REST.GET')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/api/game
+---
+2013/10/04 10:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('game/REST.GET')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/api/game
+---
+2013/10/04 10:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('game/REST.GET')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/api/game
+---
+2013/10/04 10:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "REST.GET".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('REST.GET')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('REST.GET')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('game/REST.GET')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/api/game
+---
+2013/10/04 10:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/game/list".' in C:\wamp\www\restapi\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('api/game/list')
+#1 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/app/index.php/api/game
+---
+2013/10/04 10:31:36 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\wamp\www\restapi\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\restapi\app\protected\extensions\wrest\WRestController.php(80): spl_autoload_call()
+#1 C:\wamp\www\restapi\app\protected\extensions\wrest\actions\WRestListAction.php(26): GameController->getModel()
+#2 C:\wamp\www\restapi\framework\web\actions\CAction.php(76): WRestListAction->run()
+#3 C:\wamp\www\restapi\framework\web\CController.php(308): WRestListAction->runWithParams()
+#4 C:\wamp\www\restapi\framework\web\CController.php(286): GameController->runAction()
+#5 C:\wamp\www\restapi\framework\web\CController.php(265): GameController->runActionWithFilters()
+#6 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): GameController->run()
+#7 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/app/index.php/api/game
+in C:\wamp\www\restapi\app\protected\extensions\wrest\WRestController.php (80)
+in C:\wamp\www\restapi\app\protected\extensions\wrest\actions\WRestListAction.php (26)
+in C:\wamp\www\restapi\app\index.php (13)
+2013/10/04 11:35:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('friends')
+#4 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('api/game/friend...')
+#5 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/app/index.php/api/game/friends/2
+---
+2013/10/04 11:39:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "friend".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('friend')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('friend')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('api/game/friend...')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/api/game/friend/2
+---
+2013/10/04 11:39:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('friends')
+#4 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('api/game/friend...')
+#5 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/app/index.php/api/game/friends/2
+---
+2013/10/04 11:40:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('friends')
+#4 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('api/game/friend...')
+#5 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/app/index.php/api/game/friends/2
+---
+2013/10/04 11:40:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "friend".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('friend')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('friend')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('api/game/friend...')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/api/game/friend/2
+---
+2013/10/04 11:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "friend".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('friend')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('friend')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('api/game/friend...')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/api/game/friend/2
+---
+2013/10/04 11:42:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('friends')
+#4 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('api/game/friend...')
+#5 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/app/index.php/api/game/friends/2
+---
+2013/10/04 11:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('game')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/game/
+---
+2013/10/04 11:52:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\restapi\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\restapi\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\restapi\framework\web\CWebApplication.php(141): CWebApplication->runController('game')
+#3 C:\wamp\www\restapi\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/app/index.php/game/
+---
+2013/10/06 09:50:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('create')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('create')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/create')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/api/game
+---
+2013/10/06 09:51:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game
+---
+2013/10/06 10:40:46 [error] [exception.CException] exception 'CException' with message 'GameController and its behaviors do not have a method or closure named "sendResponse".' in C:\wamp\www\restapi\backend\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('sendResponse', Array)
+#1 C:\wamp\www\restapi\backend\protected\controllers\GameController.php(22): GameController->sendResponse(200, '{"game":{"activ...')
+#2 C:\wamp\www\restapi\backend\framework\web\actions\CInlineAction.php(49): GameController->actionCreate()
+#3 C:\wamp\www\restapi\backend\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\backend\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\backend\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(141): CWebApplication->runController('game/create')
+#8 C:\wamp\www\restapi\backend\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\backend\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/backend/api/game
+---
+2013/10/06 14:44:35 [error] [php] include(WRestController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\restapi\backend\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\restapi\backend\protected\controllers\api\GameController.php(2): spl_autoload_call()
+#1 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(354): require()
+#2 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\backend\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\backend\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/backend/api/game
+in C:\wamp\www\restapi\backend\protected\controllers\api\GameController.php (2)
+in C:\wamp\www\restapi\backend\index.php (13)
+2013/10/06 15:06:55 [error] [php] include(WRestController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\restapi\backend\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\restapi\backend\protected\controllers\api\GameController.php(2): spl_autoload_call()
+#1 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(354): require()
+#2 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\backend\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\backend\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/backend/api/game
+in C:\wamp\www\restapi\backend\protected\controllers\api\GameController.php (2)
+in C:\wamp\www\restapi\backend\index.php (13)
+2013/10/07 14:48:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\restapi\backend\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\backend\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\restapi\backend\framework\web\CWebApplication.php(141): CWebApplication->runController('game')
+#3 C:\wamp\www\restapi\backend\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\backend\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/backend/game
+---
+2013/10/07 15:05:31 [error] [php] Undefined index: game (C:\wamp\www\restapi\api\protected\controllers\GameController.php:9)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): GameController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): GameController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): GameController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/game
+in C:\wamp\www\restapi\api\protected\controllers\GameController.php (9)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 15:09:14 [error] [php] Missing argument 1 for CActiveRecord::findAllByAttributes(), called in C:\wamp\www\restapi\api\protected\controllers\GameController.php on line 9 and defined (C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php:1531)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): GameController->runAction()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): GameController->runActionWithFilters()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): GameController->run()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/game
+in C:\wamp\www\restapi\api\protected\controllers\GameController.php (9)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 15:12:03 [error] [php] Undefined index: game (C:\wamp\www\restapi\api\protected\controllers\GameController.php:10)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): GameController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): GameController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): GameController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/game
+in C:\wamp\www\restapi\api\protected\controllers\GameController.php (10)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 15:17:33 [error] [php] Undefined variable: models (C:\wamp\www\restapi\api\protected\controllers\GameController.php:10)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): GameController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): GameController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): GameController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/game
+in C:\wamp\www\restapi\api\protected\controllers\GameController.php (10)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 15:26:40 [error] [php] Undefined variable: trips (C:\wamp\www\restapi\api\protected\controllers\GameController.php:12)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): GameController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): GameController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): GameController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/game
+in C:\wamp\www\restapi\api\protected\controllers\GameController.php (12)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 15:26:57 [error] [exception.CException] exception 'CException' with message 'Property "Game.id" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\wamp\www\restapi\api\protected\controllers\GameController.php(14): CActiveRecord->__get('id')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): GameController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/game
+---
+2013/10/07 16:04:31 [error] [php] include(Product.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\restapi\api\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\restapi\api\protected\controllers\GameController.php(21): spl_autoload_call()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): GameController->actionList()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): GameController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): GameController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): GameController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/game
+in C:\wamp\www\restapi\api\protected\controllers\GameController.php (21)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 16:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/1
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/07 16:23:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "1".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('1')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/1
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/07 16:24:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('id')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('id')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/id/2')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/id/2
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/07 16:24:57 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\api\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('delete')
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/delete')
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/api/game/1
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/07 16:25:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "get".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('get')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('get')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/get')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/1
+---
+2013/10/07 16:26:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\api\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('delete')
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/delete')
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/api/game/1
+---
+2013/10/07 16:27:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('id')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('id')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/id/1')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/id/1
+---
+2013/10/07 16:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/
+---
+2013/10/07 16:36:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\api\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('delete')
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/delete')
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/api/game/1
+---
+2013/10/07 16:37:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\api\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('delete')
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/delete/1')
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/api/game/delete/1
+---
+2013/10/07 16:38:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\api\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('delete')
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/delete/1')
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/api/game/delete/1
+---
+2013/10/07 16:40:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\api\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('delete')
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/delete')
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/api/game/1
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/07 16:52:41 [error] [exception.CException] exception 'CException' with message 'Property "Console.game_id" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('game_id')
+#1 C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php(12): CActiveRecord->__get('game_id')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): ConsoleController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('console/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/console
+---
+2013/10/07 17:24:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game
+---
+2013/10/07 17:24:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\restapi\api\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('delete')
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/delete')
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/restapi/api/game/1
+---
+2013/10/07 17:25:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action ":id".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction(':id')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run(':id')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/:id/1')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/:id/1
+---
+2013/10/07 17:30:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_id".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('_id')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('_id')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/_id/1')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/_id/1
+---
+2013/10/07 17:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id:".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('id:')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('id:')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/id:/1')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/id:/1
+---
+2013/10/07 17:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id:".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('id:')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('id:')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/id:/1')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/id:/1
+---
+2013/10/07 17:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('id')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('id')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/id/1')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/id/1
+---
+2013/10/07 17:33:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('id')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('id')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/id/1')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/game/id/1
+---
+2013/10/07 17:37:59 [error] [php] Object of class stdClass could not be converted to string (C:\wamp\www\restapi\api\framework\db\schema\CDbCommandBuilder.php:481)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1470): Game->query()
+#1 C:\wamp\www\restapi\api\protected\controllers\GameController.php(8): Game->findAll()
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): GameController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): GameController->runAction()
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): GameController->runActionWithFilters()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): GameController->run()
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/game
+in C:\wamp\www\restapi\api\protected\controllers\GameController.php (8)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 17:37:59 [error] [php] Object of class stdClass could not be converted to string (C:\wamp\www\restapi\api\framework\db\schema\CDbCommandBuilder.php:481)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1470): Console->query()
+#1 C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php(8): Console->findAll()
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): ConsoleController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): ConsoleController->runAction()
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): ConsoleController->runActionWithFilters()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): ConsoleController->run()
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/console
+in C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php (8)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 17:38:01 [error] [php] Object of class stdClass could not be converted to string (C:\wamp\www\restapi\api\framework\db\schema\CDbCommandBuilder.php:481)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1470): Console->query()
+#1 C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php(8): Console->findAll()
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): ConsoleController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): ConsoleController->runAction()
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): ConsoleController->runActionWithFilters()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): ConsoleController->run()
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/console
+in C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php (8)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/07 17:56:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('2')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/2
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/07 17:56:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('2')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/2
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/07 18:00:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('2')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/2
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/07 18:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('2')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/2
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/08 16:01:26 [error] [php] Undefined variable: id (C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php:56)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): ConsoleController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): ConsoleController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): ConsoleController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/console/6
+in C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php (56)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/08 16:02:01 [error] [php] Undefined variable: id (C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php:56)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): ConsoleController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): ConsoleController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): ConsoleController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/console/6
+in C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php (56)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/08 16:04:59 [error] [php] Undefined variable: id (C:\wamp\www\restapi\api\protected\controllers\GameController.php:51)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): GameController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): GameController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): GameController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/game/2
+in C:\wamp\www\restapi\api\protected\controllers\GameController.php (51)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/08 16:07:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "10".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('10')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/10
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/08 16:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/list".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/list')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/gii
+---
+2013/10/11 16:17:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tire/list".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tire/list')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tire
+---
+2013/10/11 16:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/list".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/list')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier
+---
+2013/10/11 16:19:16 [error] [php] Undefined variable: user (C:\wamp\www\restapi\api\protected\controllers\TiersController.php:22)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): TiersController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): TiersController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): TiersController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/tiers
+in C:\wamp\www\restapi\api\protected\controllers\TiersController.php (22)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/13 08:12:05 [error] [php] strtotime() expects parameter 2 to be long, string given (C:\wamp\www\restapi\api\protected\controllers\UserbansController.php:31)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): UserbansController->runAction()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): UserbansController->runActionWithFilters()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): UserbansController->run()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/userbans
+in C:\wamp\www\restapi\api\protected\controllers\UserbansController.php (31)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/13 08:12:16 [error] [php] strtotime() expects parameter 2 to be long, string given (C:\wamp\www\restapi\api\protected\controllers\UserbansController.php:31)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): UserbansController->runAction()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): UserbansController->runActionWithFilters()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): UserbansController->run()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/userbans
+in C:\wamp\www\restapi\api\protected\controllers\UserbansController.php (31)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/13 15:17:28 [error] [php] Trying to get property of non-object (C:\wamp\www\restapi\api\protected\controllers\UserbansController.php:77)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): UserbansController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): UserbansController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): UserbansController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/userbans
+in C:\wamp\www\restapi\api\protected\controllers\UserbansController.php (77)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/13 15:17:49 [error] [php] Trying to get property of non-object (C:\wamp\www\restapi\api\protected\controllers\UserbansController.php:77)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): UserbansController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): UserbansController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): UserbansController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/userbans
+in C:\wamp\www\restapi\api\protected\controllers\UserbansController.php (77)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/13 15:22:58 [error] [php] Use of undefined constant JSON_RESPONSE_ROOT_SINGLE - assumed 'JSON_RESPONSE_ROOT_SINGLE' (C:\wamp\www\restapi\api\protected\controllers\UserbansController.php:77)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): UserbansController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): UserbansController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): UserbansController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/userbans
+in C:\wamp\www\restapi\api\protected\controllers\UserbansController.php (77)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 14:17:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'deleted' in where clause is ambiguous. The SQL statement executed was: SELECT a.*,b.game_name,c.console_name FROM xx_tiers a, xx_games b,xx_consoles c where a.game_id =b.game_id and c.console_id=b.console_id and deleted=0 ORDER BY c.console_name,b.game_name,a.sort_order .
+in C:\wamp\www\restapi\api\protected\controllers\TiersController.php (21)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 14:17:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'deleted' in where clause is ambiguous. The SQL statement executed was: SELECT a.*,b.game_name,c.console_name FROM xx_tiers a, xx_games b,xx_consoles c where a.game_id =b.game_id and c.console_id=b.console_id and deleted=0 ORDER BY c.console_name,b.game_name,a.sort_order ' in C:\wamp\www\restapi\api\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\restapi\api\protected\controllers\TiersController.php(21): CDbCommand->queryAll()
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TiersController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tiers/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/tiers
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/16 14:17:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'deleted' in where clause is ambiguous. The SQL statement executed was: SELECT a.*,b.game_name,c.console_name FROM xx_tiers a, xx_games b,xx_consoles c where a.game_id =b.game_id and c.console_id=b.console_id and deleted=0 ORDER BY c.console_name,b.game_name,a.sort_order .
+in C:\wamp\www\restapi\api\protected\controllers\TiersController.php (21)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 14:17:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'deleted' in where clause is ambiguous. The SQL statement executed was: SELECT a.*,b.game_name,c.console_name FROM xx_tiers a, xx_games b,xx_consoles c where a.game_id =b.game_id and c.console_id=b.console_id and deleted=0 ORDER BY c.console_name,b.game_name,a.sort_order ' in C:\wamp\www\restapi\api\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\restapi\api\protected\controllers\TiersController.php(21): CDbCommand->queryAll()
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TiersController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tiers/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/tiers
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/16 15:43:42 [error] [php] Undefined index: team_name (C:\wamp\www\restapi\api\protected\controllers\TeamsController.php:24)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): TeamsController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): TeamsController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): TeamsController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/teams
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (24)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 15:52:17 [error] [php] Array to string conversion (C:\wamp\www\restapi\api\protected\controllers\TeamsController.php:51)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(286): TeamsController->runAction()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(265): TeamsController->runActionWithFilters()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): TeamsController->run()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/teams
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (51)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 16:02:10 [error] [exception.CException] exception 'CException' with message 'Teammembers and its behaviors do not have a method or closure named "saveAll".' in C:\wamp\www\restapi\api\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(227): CComponent->__call('saveAll', Array)
+#1 [internal function]: CActiveRecord->__call('saveAll', Array)
+#2 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(58): Teammembers->saveAll()
+#3 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionCreate()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/create')
+#9 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/restapi/api/teams
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/16 16:05:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `xx_teammembers` (`active`, `deleted`, `user_id`, `team_id`, `joined_time`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (58)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 16:05:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `xx_teammembers` (`active`, `deleted`, `user_id`, `team_id`, `joined_time`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\wamp\www\restapi\api\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(58): CActiveRecord->save()
+#3 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionCreate()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/create')
+#9 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/restapi/api/teams
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/16 16:08:54 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `xx_teammembers` (`active`, `deleted`, `user_id`, `team_id`, `joined_time`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (58)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 16:08:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `xx_teammembers` (`active`, `deleted`, `user_id`, `team_id`, `joined_time`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4)' in C:\wamp\www\restapi\api\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(58): CActiveRecord->save()
+#3 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionCreate()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/create')
+#9 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/restapi/api/teams
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/16 16:23:07 [error] [exception.CException] exception 'CException' with message 'Property "Teams.ban_id" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('ban_id')
+#1 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(14): CActiveRecord->__get('ban_id')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/teams
+---
+2013/10/16 17:05:28 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\restapi\api\framework\db\schema\CDbCommandBuilder.php:820)
+Stack trace:
+#0 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(20): Teamtiers->findByPk()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionList()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): TeamsController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): TeamsController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): TeamsController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/teams
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (20)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 17:07:00 [error] [php] Invalid argument supplied for foreach() (C:\wamp\www\restapi\api\framework\db\schema\CDbCommandBuilder.php:820)
+Stack trace:
+#0 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(20): Teamtiers->findByPk()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionList()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): TeamsController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): TeamsController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): TeamsController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/teams
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (20)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 17:11:47 [error] [php] Undefined variable: cntr (C:\wamp\www\restapi\api\protected\controllers\TeamsController.php:22)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): TeamsController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): TeamsController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): TeamsController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/teams
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (22)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 17:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('update')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('update')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/update')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/teams/11
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/16 17:55:53 [error] [php] Undefined index: team (C:\wamp\www\restapi\api\protected\controllers\TeamsController.php:42)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(286): TeamsController->runAction()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(265): TeamsController->runActionWithFilters()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): TeamsController->run()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/teams/11
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (42)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/16 18:00:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('console/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/console/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/17 04:03:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php(22): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): ConsoleController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('console/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/console
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:03:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\GameController.php(21): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): GameController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/game
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:03:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(11): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/teams
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:03:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\UserbansController.php(22): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): UserbansController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('userbans/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/userbans
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:03:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\protected\controllers\TiersController.php(21): CModule->__get('db')
+#5 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TiersController->actionList()
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#10 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tiers/list')
+#11 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/restapi/api/tiers
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:04:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\UserController.php(22): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): UserController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('user/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/user
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:05:12 [error] [php] Undefined variable: team (C:\wamp\www\restapi\api\protected\controllers\TeamsController.php:28)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): TeamsController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): TeamsController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): TeamsController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/teams
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (28)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/17 04:05:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/get".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/get')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier/2
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/get".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/get')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier/1
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:05:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/get".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/get')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier/4
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:05:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/get".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/get')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier/3
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:05:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/get".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/get')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier/7
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:05:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/get".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/get')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier/2
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:05:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'resstapi.xx_teamtiers' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `xx_teamtiers`.
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (80)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/17 04:05:40 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{teamtiers}}" for active record class "Teamtiers" cannot be found in the database.' in C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Teamtiers))
+#1 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(80): CActiveRecord->__construct()
+#3 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionCreate()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/create')
+#9 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/restapi/api/teams
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/get".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/get')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier/3
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:07:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'resstapi.xx_teamtiers' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `xx_teamtiers`.
+in C:\wamp\www\restapi\api\protected\controllers\TeamsController.php (23)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/17 04:07:37 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{teamtiers}}" for active record class "Teamtiers" cannot be found in the database.' in C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Teamtiers))
+#1 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(658): CActiveRecord->getMetaData()
+#2 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1350): CActiveRecord->getTableSchema()
+#3 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#4 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(23): CActiveRecord->find('team_id=:team_i...', Array)
+#5 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionList()
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#10 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/list')
+#11 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/restapi/api/teams
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 04:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tier/get".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tier/get')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/tier/3
+HTTP_REFERER=http://localhost:800/restapi/
+---
+2013/10/17 13:43:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\ConsoleController.php(22): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): ConsoleController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('console/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/console
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/17 13:43:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\GameController.php(21): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): GameController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('game/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/game
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/17 13:43:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CModule.php(103): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\protected\controllers\TiersController.php(21): CModule->__get('db')
+#5 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TiersController->actionList()
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#10 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('tiers/list')
+#11 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/restapi/api/tiers
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/17 13:43:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\UserController.php(22): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): UserController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('user/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/user
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/17 13:43:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\UserbansController.php(22): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): UserbansController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('userbans/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/userbans
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/17 13:43:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\wamp\www\restapi\api\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\restapi\api\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\restapi\api\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1469): CActiveRecord->getCommandBuilder()
+#7 C:\wamp\www\restapi\api\protected\controllers\TeamsController.php(11): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeamsController->actionList()
+#9 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#13 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teams/list')
+#14 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/restapi/api/teams
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/17 14:44:20 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from xx_teammembers where user_id='3' and team_id='12'' at line 1. The SQL statement executed was: delete * from xx_teammembers where user_id='3' and team_id='12'.
+in C:\wamp\www\restapi\api\protected\controllers\TeammembersController.php (26)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/17 14:44:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from xx_teammembers where user_id='3' and team_id='12'' at line 1. The SQL statement executed was: delete * from xx_teammembers where user_id='3' and team_id='12'' in C:\wamp\www\restapi\api\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\CDbCommand.php(377): CDbCommand->queryInternal('', 0, Array)
+#1 C:\wamp\www\restapi\api\protected\controllers\TeammembersController.php(26): CDbCommand->query()
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): TeammembersController->actionCreate()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('create')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teammembers/cre...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/teammembers
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/17 14:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('teammembers/und...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/teammembers/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/20 04:16:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ompetitions/list".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ompetitions/lis...')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/ompetitions
+---
+2013/10/20 04:16:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ompetitions/list".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ompetitions/lis...')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/ompetitions
+---
+2013/10/20 05:07:10 [error] [php] Undefined index: compet (C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php:48)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(286): CompetitionsController->runAction()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(265): CompetitionsController->runActionWithFilters()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CompetitionsController->run()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/competitions/1
+in C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php (48)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/20 13:42:20 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.game_id" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(161): CComponent->__set('game_id', '2')
+#1 C:\wamp\www\restapi\api\framework\base\CModel.php(607): CActiveRecord->__set('game_id', '2')
+#2 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(70): CModel->offsetSet('game_id', '2')
+#3 [internal function]: CompetitionsController->actionGet('1')
+#4 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CompetitionsController), Array)
+#5 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CompetitionsController), Object(ReflectionMethod), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('get')
+#10 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/ge...')
+#11 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/restapi/api/competitions/1
+---
+2013/10/20 13:51:19 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.game_id" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(161): CComponent->__set('game_id', '2')
+#1 C:\wamp\www\restapi\api\framework\base\CModel.php(607): CActiveRecord->__set('game_id', '2')
+#2 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(72): CModel->offsetSet('game_id', '2')
+#3 [internal function]: CompetitionsController->actionGet('1')
+#4 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CompetitionsController), Array)
+#5 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CompetitionsController), Object(ReflectionMethod), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('get')
+#10 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/ge...')
+#11 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/restapi/api/competitions/1
+---
+2013/10/20 13:57:46 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.gameapp.prizes_detail" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('gameapp.prizes_...')
+#1 C:\wamp\www\restapi\api\framework\base\CModel.php(596): CActiveRecord->__get('gameapp.prizes_...')
+#2 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(74): CModel->offsetGet('gameapp.prizes_...')
+#3 [internal function]: CompetitionsController->actionGet('1')
+#4 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CompetitionsController), Array)
+#5 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CompetitionsController), Object(ReflectionMethod), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('get')
+#10 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/ge...')
+#11 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/restapi/api/competitions/1
+---
+2013/10/23 15:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fixtuesr/undefined".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('fixtuesr/undefi...')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/fixtuesr/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/23 15:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fixtuesr/update".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('fixtuesr/update')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/fixtuesr/1
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/23 15:57:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fixtuesr/update".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('fixtuesr/update')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/fixtuesr/1
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/23 15:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fixtueres/update".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('fixtueres/updat...')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/fixtueres/1
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/23 15:59:27 [error] [php] Undefined variable: games (C:\wamp\www\restapi\api\protected\controllers\FixturesController.php:21)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(286): FixturesController->runAction()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(265): FixturesController->runActionWithFilters()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): FixturesController->run()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/fixtures/1
+in C:\wamp\www\restapi\api\protected\controllers\FixturesController.php (21)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/23 16:00:15 [error] [php] Undefined variable: team_id (C:\wamp\www\restapi\api\protected\controllers\FixturesController.php:25)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(286): FixturesController->runAction()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(265): FixturesController->runActionWithFilters()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): FixturesController->run()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/fixtures/1
+in C:\wamp\www\restapi\api\protected\controllers\FixturesController.php (25)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/23 16:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('fixtures/undefi...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/fixtures/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/25 16:12:59 [error] [exception.CException] exception 'CException' with message 'Property "Matches.console_id" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('console_id')
+#1 C:\wamp\www\restapi\api\protected\controllers\MatchesController.php(36): CActiveRecord->__get('console_id')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): MatchesController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('matches/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/matches
+---
+2013/10/25 16:28:23 [error] [php] Undefined variable: team (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:46)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#3 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (46)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/26 16:33:38 [error] [php] Undefined variable: usersx (C:\wamp\www\restapi\api\protected\controllers\FixturesController.php:18)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(286): FixturesController->runAction()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(265): FixturesController->runActionWithFilters()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): FixturesController->run()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/fixtures/3
+in C:\wamp\www\restapi\api\protected\controllers\FixturesController.php (18)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/10/27 05:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "laddders/list".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('laddders/list')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/laddders
+---
+2013/10/27 05:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "laddders/list".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('laddders/list')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/laddders
+---
+2013/10/27 05:34:57 [error] [exception.CException] exception 'CException' with message 'Property "Matches.matches_played" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('matches_played')
+#1 C:\wamp\www\restapi\api\protected\controllers\LaddersController.php(25): CActiveRecord->__get('matches_played')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): LaddersController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/ladders
+---
+2013/10/27 05:34:58 [error] [exception.CException] exception 'CException' with message 'Property "Matches.matches_played" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('matches_played')
+#1 C:\wamp\www\restapi\api\protected\controllers\LaddersController.php(25): CActiveRecord->__get('matches_played')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): LaddersController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/ladders
+---
+2013/10/27 05:35:38 [error] [exception.CException] exception 'CException' with message 'Property "Ladders.team1_id" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('team1_id')
+#1 C:\wamp\www\restapi\api\protected\controllers\LaddersController.php(24): CActiveRecord->__get('team1_id')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): LaddersController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/ladders
+---
+2013/10/27 05:36:21 [error] [exception.CException] exception 'CException' with message 'Property "Ladders.team1id" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('team1id')
+#1 C:\wamp\www\restapi\api\protected\controllers\LaddersController.php(24): CActiveRecord->__get('team1id')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): LaddersController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/ladders
+---
+2013/10/29 16:18:36 [error] [exception.CException] exception 'CException' with message 'Property "Matches.game_time" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('game_time')
+#1 C:\wamp\www\restapi\api\protected\controllers\MatchesController.php(38): CActiveRecord->__get('game_time')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): MatchesController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('matches/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/matches/
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/29 16:19:01 [error] [exception.CException] exception 'CException' with message 'Property "Matches.game_time" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('game_time')
+#1 C:\wamp\www\restapi\api\protected\controllers\MatchesController.php(38): CActiveRecord->__get('game_time')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): MatchesController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('matches/list')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/matches/
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/10/29 16:39:47 [error] [php] Undefined variable: usersx (C:\wamp\www\restapi\api\protected\controllers\FixturesController.php:18)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(286): FixturesController->runAction()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(265): FixturesController->runActionWithFilters()
+#4 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): FixturesController->run()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/fixtures/3
+in C:\wamp\www\restapi\api\protected\controllers\FixturesController.php (18)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/05 15:44:43 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `xx_ladders` (`deleted`, `team_id`, `matches_played`, `match_wins`, `match_points_for`, `match_points_against`, `ladder_points`, `competition_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in C:\wamp\www\restapi\api\protected\controllers\LaddersController.php (13)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/05 15:44:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `xx_ladders` (`deleted`, `team_id`, `matches_played`, `match_wins`, `match_points_for`, `match_points_against`, `ladder_points`, `competition_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in C:\wamp\www\restapi\api\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\restapi\api\protected\controllers\LaddersController.php(13): CActiveRecord->save()
+#3 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): LaddersController->actionCreate()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/create')
+#9 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/restapi/api/ladders
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "delete".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('delete')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('delete')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/delete')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/2
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/05 16:39:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "undefined".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('undefined')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('undefined')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('ladders/undefin...')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/ladders/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 14:54:49 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 14:56:21 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 14:56:28 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:26:15 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:26:36 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:26:49 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('notes/list')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/notes?{%22note%22:%20{%22note%22:%22%22,%22note_type%22:2,%22note_ref%22:2}}
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:27:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('notes/list')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/notes?{%22note%22:%20{%22note%22:%22%22,%22note_type%22:2,%22note_ref%22:2}}
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\wamp\www\restapi\api\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('notes/list')
+#3 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/restapi/api/notes?{%22note%22:%20{%22note%22:%22%22,%22note_type%22:2,%22note_ref%22:2}}
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:28:00 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:29:52 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:32:54 [error] [exception.CException] exception 'CException' with message 'Property "Competitions.competition_name" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(145): CComponent->__get('competition_nam...')
+#1 C:\wamp\www\restapi\api\protected\controllers\CompetitionsController.php(13): CActiveRecord->__get('competition_nam...')
+#2 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(49): CompetitionsController->actionList()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('list')
+#7 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('competitions/li...')
+#8 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/restapi/api/competitions
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:32:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "4/userbans".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('4/userbans')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/4/userbans
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:33:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "undefined/undefined".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('undefined/undef...')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/undefined/undefined
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:33:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "4/userbans".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('4/userbans')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/4/userbans
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 15:36:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "4/userbans".' in C:\wamp\www\restapi\api\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('4/userbans')
+#1 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/restapi/api/4/userbans
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/13 16:32:19 [error] [exception.CException] exception 'CException' with message 'Property "Matches.notes" is not defined.' in C:\wamp\www\restapi\api\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\db\ar\CActiveRecord.php(161): CComponent->__set('notes', Array)
+#1 C:\wamp\www\restapi\api\framework\base\CModel.php(607): CActiveRecord->__set('notes', Array)
+#2 C:\wamp\www\restapi\api\protected\controllers\MatchesController.php(26): CModel->offsetSet('notes', Array)
+#3 [internal function]: MatchesController->actionGet('4')
+#4 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MatchesController), Array)
+#5 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MatchesController), Object(ReflectionMethod), Array)
+#6 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\restapi\api\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\restapi\api\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): CController->run('get')
+#10 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController('matches/get')
+#11 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\wamp\www\restapi\api\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/restapi/api/matches/4
+HTTP_REFERER=http://localhost/restapi/
+---
+2013/11/19 15:32:56 [error] [php] strtotime() expects parameter 1 to be string, array given (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:85)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/6
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (85)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/19 15:33:00 [error] [php] strtotime() expects parameter 1 to be string, array given (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:85)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/6
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (85)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/19 15:33:04 [error] [php] strtotime() expects parameter 1 to be string, array given (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:85)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/6
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (85)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/19 15:33:04 [error] [php] strtotime() expects parameter 1 to be string, array given (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:85)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/6
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (85)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/19 15:33:04 [error] [php] strtotime() expects parameter 1 to be string, array given (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:85)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/6
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (85)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/19 15:33:04 [error] [php] strtotime() expects parameter 1 to be string, array given (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:85)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/6
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (85)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/19 15:33:04 [error] [php] strtotime() expects parameter 1 to be string, array given (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:85)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/6
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (85)
+in C:\wamp\www\restapi\api\index.php (13)
+2013/11/19 15:33:04 [error] [php] strtotime() expects parameter 1 to be string, array given (C:\wamp\www\restapi\api\protected\controllers\MatchesController.php:85)
+Stack trace:
+#0 C:\wamp\www\restapi\api\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\wamp\www\restapi\api\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\wamp\www\restapi\api\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\wamp\www\restapi\api\framework\web\CController.php(286): MatchesController->runAction()
+#4 C:\wamp\www\restapi\api\framework\web\CController.php(265): MatchesController->runActionWithFilters()
+#5 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(282): MatchesController->run()
+#6 C:\wamp\www\restapi\api\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\restapi\api\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\restapi\api\index.php(13): CWebApplication->run()
+REQUEST_URI=/restapi/api/matches/6
+in C:\wamp\www\restapi\api\protected\controllers\MatchesController.php (85)
+in C:\wamp\www\restapi\api\index.php (13)

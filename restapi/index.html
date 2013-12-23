@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Le styles -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/theme.bootstrap.css" rel="stylesheet">
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+
+<link href="css/chosen.css" rel="stylesheet">
+<script src="js/chosen.jquery.min.js"></script>
+<script src="js/tinymce.min.js"></script>
+<script src="js/jquery.tablesorter.js"></script>
+<script src="js/jquery.tablesorter.widgets.js"></script>
+<link rel="stylesheet" href="css/jquery.tablesorter.pager.css">
+<script src="js/jquery.tablesorter.pager.js"></script>
+<link rel="stylesheet" href="css/jquery.ambiance.css">
+
+<script src="js/jquery.ambiance.js"></script>
+<link href="editable/css/bootstrap-editable.css" rel="stylesheet">
+<script src="editable/js/bootstrap-editable.min.js"></script>
+
+<link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet">
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/jquery-ui-timepicker-addon.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/team.js"></script>
+<script type="text/javascript" src="js/comp.js"></script>
+
+<style>
+.widget .panel-body { padding:0px; }
+.widget .list-group { margin-bottom: 0; }
+.widget .panel-title { display:inline }
+.widget .label-info { float: right; }
+.widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+.widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+.widget .mic-info { color: #666666;font-size: 11px; }
+.widget .action { margin-top:5px; }
+.widget .comment-text { font-size: 12px; }
+.widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
+td span{
+	cursor: pointer;
+}
+html body.modal-open div.container-fluid div#compmodal.modal div.modal-body form.form-horizontal div.control-group label.control-label{
+	width: auto;
+}
+html body.modal-open div.container-fluid div#compmodal.modal div.modal-body form.form-horizontal div.control-group div.controls{
+	margin-left: 80px;
+}
+.hesd-spaz{
+	font-weight: bold;
+}
+	.error{
+		color: red;
+	}
+div.panel-body ul.list-group li.list-group-item div p{
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+	.ope{
+		cursor: pointer;
+	}
+	.opee{
+		padding-left: 15px;
+	}
+	input[type="radio"], input[type="checkbox"] {
+  line-height: normal;
+  margin: 0;
+}
+	.editable-click, a.editable-click, a.editable-click:hover {
+  border-bottom:none;
+  text-decoration: none;
+}
+tr{
+	background: #f7f7f7;
+}
+.v-space{
+	padding:5px;
+	cursor: pointer;
+}
+.ope:hover{
+	text-decoration: underline;
+}
+.v-space:hover{
+	text-decoration: underline;
+}
+
+</style>
+</head>
+<body>
+<div id="navbar-example" class="navbar navbar-static">
+              <div class="navbar-inner">
+                <div class="container" style="width: auto;">
+                  <a class="brand" href="#">Hi User</a>
+                  <ul class="nav" role="navigation">
+                    <li class="dropdown-x" data-dropdown="#dropdown-2">
+                     <!-- <a id="drop1" href="#" role="button" >File</a>-->
+                    </li>
+                    <li class="dropdown-x" >
+                     <!-- <a href="#" id="drop2" role="button">Edit</a>-->
+                    </li>
+                  </ul>   
+                </div>
+				
+              </div>
+           
+            </div> 
+    <div class="container-fluid">
+    <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+		<li class="active"><a href="#user" data-toggle="tab">Users</a></li>
+		<li><a href="#banuser" data-toggle="tab">Ban Users</a></li>
+        <li><a href="#console" data-toggle="tab">Consoles</a></li>
+        <li><a href="#game" data-toggle="tab">Games</a></li>
+		<li><a href="#tiers" data-toggle="tab">Tiers</a></li>
+		<li><a href="#team" data-toggle="tab">Teams</a></li>
+		<li><a href="#comp" data-toggle="tab">Competitions </a></li>
+		<li><a href="#matches" data-toggle="tab">Matches </a></li>
+		
+		<li><a href="#ladders" data-toggle="tab">Ladders </a></li>
+		
+    </ul>
+    <div id="my-tab-content" class="tab-content">
+	
+        <div class="tab-pane" id="console">
+		<div style="clear: both">
+         <h5>Manage Consoles &raquo;</h5>
+        <button type="button" class="btn btn-primary pull-right" style="margin-top: -30px" data-toggle="modal" data-target="#myModal">Add Console</button>
+		<br>
+		</div>
+		<div style="clear: both; margin: 10px">
+			<table class="tablesorter" id="console_table_grid">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Active</th>
+			<th>Games</th>
+			<th>Action</th>
+			
+	</thead>
+	<tfoot>
+			<th colspan="7" class="pagerconsole_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumconsole_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="console-body">
+			
+	</tbody>
+</table>
+		</div>
+        </div>
+
+        <div class="tab-pane" id="game">
+         <h5>Manage Games</h5>
+		 <div style="clear: both">
+		  <button type="button" class="btn btn-primary pull-right" style="margin-top: -30px" data-toggle="modal" data-target="#myModal2">Add Game</button>
+		  </div>
+		  <br><br>
+		  <div style="clear: both; margin: 10px">
+			<table class="tablesorter" id="game_table_grid">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Active</th>
+			<th>console</th>
+			<th>Action</th>
+	</thead>
+	<tfoot>
+			<th colspan="7" class="pagergame_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumgame_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="console-game">
+			
+	</tbody>
+</table>
+		</div>
+        </div>
+
+        <div class="tab-pane active" id="user">
+		<div style="clear: both">
+		<br>
+		</div>
+		<div style="clear: both; margin: 10px">
+			<table class="tablesorter" id="user_table_grid">
+	<thead>
+		<tr>
+			<th>User Login, </th>
+			<th>Nicename, </th>
+			<th>Email</th>			
+	</thead>
+	<tfoot>
+			<th colspan="7" class="pageruser_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumuser_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="user-body">
+	
+	</tbody>
+</table>
+		</div>
+        </div>
+		
+       <div class="tab-pane" id="tiers">
+		<div style="clear: both">
+         <h5>Manage Tiers &raquo;</h5>
+        <button type="button" class="btn btn-primary pull-right" style="margin-top: -30px" data-toggle="modal" data-target="#tiersmodal">Add Tiers</button>
+		<br>
+		</div>
+		<div style="clear: both; margin: 10px">
+			<table class="tablesorter" id="tiers_table_grid">
+	<thead>
+		<tr>
+			<th>Console</th>
+			<th>Games</th>
+			<th>Tiers</th>
+			<th>Sort order</th>
+			<th>Active</th>
+			<th>Action</th>
+	</thead>
+	<tfoot>
+			<th colspan="7" class="pagertiers_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumtiers_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="tiers-body">
+			
+	</tbody>
+</table>
+		</div>
+        </div>
+
+
+		<div class="tab-pane" id="banuser">
+		<div style="clear: both">
+         <h5>Manage ban user &raquo;</h5>
+        <button type="button" class="btn btn-primary pull-right" style="margin-top: -30px" data-toggle="modal" data-target="#banusermodal">Ban User</button>
+		<br>
+		</div>
+		<div style="clear: both; margin: 10px">
+			<table class="tablesorter" id="banuser_table_grid"> 
+	<thead>
+		<tr>
+			<th>User</th>
+			<th>Type</th>
+			<th>Limit</th>
+			<th>Start</th>
+			<th>End</th>
+			<th>Reason</th>
+			<th>Ban BY</th>
+			<th>Notes</th>
+			<th>Action</th>
+	</thead>
+	<tfoot>
+			<th colspan="9" class="pagerbanuser_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumbanuser_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="userban-body">
+			
+	</tbody>
+</table>
+		</div>
+        </div>
+
+		<div class="tab-pane" id="team">
+		<div style="clear: both">
+         <h5>Manage Team &raquo;</h5>
+		 
+        <button type="button" class="btn btn-primary pull-right" style="margin-top: -30px" data-toggle="modal" data-target="#teammodal">Add Team</button>
+		<br>
+		</div>
+		<div style="clear: both; margin: 10px">
+			<table class="tablesorter" id="team_table_grid">
+	<thead>
+		<tr>
+			<th>Console</th>
+			<th>Game</th>
+			<th>Team Name</th>
+			<th>Tiers</th>
+			<th>Team_member's</th>
+			<th>Action</th>
+	</thead>
+	<tfoot>
+			<th colspan="7" class="pagerteam_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumteam_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="team-body">
+			
+	</tbody>
+</table>
+		</div>
+        </div>
+
+
+			<div class="tab-pane" id="comp">
+<br />
+<br />
+
+
+	
+	<div style="clear: both">
+      <button type="button" class="btn btn-primary pull-right" style="margin-top: -30px" data-toggle="modal" data-target="#compmodal">
+	  Add Comptetion</button>
+		<br>
+		</div>
+		
+		
+			<div style="clear: both; margin: 10px">
+			<table class="tablesorter" id="comp_table_grid">
+	<thead>
+		<tr>
+			<th>Console</th>
+			<th>Game</th>
+			<th>Tier</th>
+			<th>Comptetion</th>
+			<th>Active</th>
+			<th>Can Join</th>
+			<th>Fixtures</th>
+			<th>Action</th>
+	</thead>
+	<tfoot>
+			<th colspan="7" class="pagerteam_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> <!-- this can be any element, including an input -->
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumteam_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="comp-body">
+			
+	</tbody>
+</table>
+		</div>
+        </div>
+
+<div class="tab-pane" id="matches">
+<br />
+<br />
+
+
+	
+	<div style="clear: both">
+      <button type="button" class="btn btn-primary pull-right" style="margin-top: -30px" data-toggle="modal" data-target="#matchmodal">
+	  Add Match
+	  </button>
+		<br>
+		</div>
+		
+		
+			<div style="clear: both; margin: 10px">
+			<table class="tablesorter" id="match_table_grid">
+	<thead>
+		<tr>
+			<th>Comptition</th>
+			<th>Team-1</th>
+			<th>Team-1</th>
+			<th>Game Time</th>
+			<th>Winner</th>
+			<th>Team-1 Score</th>
+			<th>Team-2 Score</th>
+			<th>Match Completed</th>
+			<th>Notes</th>
+			<th>Action</th>
+	</thead>
+	<tfoot>
+			<th colspan="11" class="pagerteam_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> 
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumteam_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="match-body">
+			
+	</tbody>
+</table>
+		</div>
+        </div>
+
+
+<div class="tab-pane" id="ladders">
+<br />
+<br />
+
+
+	
+	<div style="clear: both">
+      <button type="button" class="btn btn-primary pull-right" style="margin-top: -30px" data-toggle="modal" data-target="#laddersmodal">
+	  Add Ladders
+	  </button>
+		<br>
+		</div>
+		
+			<div style="clear: both; margin: 10px" id="leadders_divg">
+			
+			<table class="tablesorter" id="ladders_table_grid">
+	<thead>
+		<tr>
+		
+		    <th class="filter-select filter-exact" data-placeholder="All Comptition ">Comptition</th>
+			<th>Team</th>
+			<th>Matches</th>
+			<th>Wins</th>
+			<th>Losses</th>
+			<th>Draw</th>
+			<th>Points for</th>
+			<th>Points Against</th>
+			<th>Ladder Points</th>
+				<th>Action</th>
+	</thead>
+	<tfoot>
+			<th colspan="10" class="pagerladders_table_grid form-horizontal">
+				<button type="button" class="btn first"><i class="icon-step-backward"></i></button>
+				<button type="button" class="btn prev"><i class="icon-arrow-left"></i></button>
+				<span class="pagedisplay"></span> 
+				<button type="button" class="btn next"><i class="icon-arrow-right"></i></button>
+				<button type="button" class="btn last"><i class="icon-step-forward"></i></button>
+				<select class="pagesize input-mini" title="Select page size">
+					<option selected="selected" value="10">10</option>
+					<option value="20">20</option>
+					<option value="30">30</option>
+					<option value="40">40</option>
+				</select>
+				<select class="pagenumladders_table_grid input-mini" title="Select page number"></select>
+			</th>
+		</tr>
+	</tfoot>
+	<tbody id="ladders-body">
+			
+	</tbody>
+</table>
+
+		   </div>
+        </div>
+
+
+
+</div>
+
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add new console</h3>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" id="console-form">
+    <div class="control-group">
+    <label class="control-label" for="console_name">Console Name:</label>
+    <div class="controls">
+    <input type="text" id="console_name" class="required" placeholder="console name" required="true">
+    </div>
+    </div>
+    </form>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button class="btn btn-primary" onclick="addConsole()">Save</button>
+</div>
+</div>
+
+
+
+<div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add new game</h3>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" id="game-form">
+    <div class="control-group">
+    <label class="control-label" for="game_name">Game Name:</label>
+    <div class="controls">
+    <input type="text" id="game_name" class="required" placeholder="Game name" required="true">
+    </div>
+    </div>
+	<div class="control-group">
+    <label class="control-label" for="console_ids">Select console:</label>
+    <div class="controls">
+    <span id="console-drop"></sapn>
+    </div>
+    </div>
+    </form>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button class="btn btn-primary" onclick="addGame()">Save</button>
+</div>
+</div>
+
+
+
+<div id="tiersmodal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add Tiers</h3>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" id="tiers-form">
+	
+	<div class="control-group">
+    <label class="control-label">Select Game:</label>
+    <div class="controls">
+    <span id="game-drop-down"></sapn>
+    </div>
+    </div>
+	
+	
+	<div class="control-group" id="console_nms_div" style="display: none">
+    <label class="control-label">Console:</label>
+    <div class="controls">
+    <span id="console_nms"></sapn>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Tier Name:</label>
+    <div class="controls">
+    <input type="text" id="tier_name" class="required" placeholder="tier_name" required="true">
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Sort order:</label>
+    <div class="controls">
+    <input type="number" id="sort_order" class="required" placeholder="sort order"   required="true">
+    </div>
+    </div>                                  
+
+    </form>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button class="btn btn-primary" onclick="addTires()">Save</button>
+</div>
+</div>
+
+
+
+<div id="banusermodal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Ban User</h3>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" id="ban_users-form">
+	
+	<div class="control-group">
+    <label class="control-label">Select User:</label>
+    <div class="controls">
+    <span id="user-drop-down"></sapn>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Select Type:</label>
+    <div class="controls">
+    <select id="limitban" onchange="getLimits(this.value)">
+	<option value="0"> All</option>	
+	<option value="1" >Console</option>
+	<option value="2">Game</option>
+	</select>
+    </div>
+    </div>
+	
+	<div class="control-group">
+	<div id="user_b_1" style="display: none">
+	<label class="control-label" for="game_name">Select console:</label>
+    <div class="controls">
+    <span id="cons_drop"></span>
+    </div>
+	</div>
+	<div id="user_b_2" style="display: none">
+	<label class="control-label">Select Game:</label>
+    <div class="controls">
+    <span id="game_drop"> </span>
+    </div>
+	</div>
+	</div>
+	
+	<div class="control-group">
+    <label class="control-label">Srat Date:</label>
+    <div class="controls">
+    <input type="text" id="s_date" class="required" placeholder="yyyy/mm/dd" required="true">
+    </div>
+	
+    </div>
+	<div class="control-group">
+    <label class="control-label">End Date:</label>
+    <div class="controls">
+    <input type="text" id="e_date" class="required" placeholder="yyyy/mm/dd" required="true">
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Reason:</label>
+    <div class="controls">
+    <input type="text" id="reason" class="required" placeholder="Reason" required="true">
+    </div>
+    </div>
+	
+	
+
+    </form>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button id="add_b" class="btn btn-primary" onclick="addBanuser()">Save</button>
+<button id="update_b" style="display: none" class="btn btn-primary" onclick="updateBanuser()">Update</button>
+</div>
+</div>
+
+
+
+<div id="teammodal"  class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add Team</h3>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" id="team-form">
+	
+	<div class="control-group">
+    <label class="control-label">Team Name:</label>
+    <div class="controls">
+    <input type="text" id="team_nm" class="required" placeholder="Team name" required="true">
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Select User:</label>
+    <div class="controls">
+    <span id="user-drop-down-team"></sapn>
+    </div>
+    </div>
+	
+	
+	<div class="control-group">
+	<label class="control-label">Select Game:</label>
+    <div class="controls">
+    <span id="game_drop_team"> </span>
+    </div>
+	</div>
+    
+	<div class="control-group" id="tirs_lists" style="display: none">
+	<label class="control-label">Select Tiers:</label>
+    <div class="controls">
+    <span id="tier_drop_team"> </span>
+    </div>
+	</div>
+</form>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button class="btn btn-primary" onclick="addTeam()">Save</button>
+</div>
+
+</div>
+
+
+
+<div id="moda-tedit"  class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Update Team Tier</h3>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" id="teamxx-form">
+
+	<div class="control-group">
+	<label class="control-label">Select Game:</label>
+    <div class="controls">
+    <span id="game_drop_team-x"> </span>
+    </div>
+	</div>
+    
+	<div class="control-group">
+	<label class="control-label">Select Tiers:</label>
+    <div class="controls">
+    <span id="tier_drop_team-x"> </span>
+    </div>
+	</div>
+</form>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button class="btn btn-primary" onclick="updateTTeam()">Save</button>
+</div>
+
+</div>
+
+
+
+<div id="teammmodal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add Team Member</h3>
+</div>
+<div class="modal-body" style="height: 150px;">
+    <form class="form-horizontal" id="team-mem-form">
+	
+
+	<div class="control-group">
+    <label class="control-label">Select User:</label>
+    <div class="controls">
+    <span id="user-drop-down-teamm"></sapn>
+    </div>
+    </div>
+	
+</form>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button class="btn btn-primary" onclick="addnewMem()">Save</button>
+</div>
+
+</div>
+
+
+
+<div id="compmodal"  style="width: 800px !important" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add Comptetion </h3>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal" id="comp-mem-form">
+	
+	
+	
+	
+	<div class="control-group">
+    <label class="control-label">Competition Name:</label>
+    <div class="controls">
+	  <input  type="text" id="competition_name"/>
+     
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Select Game:</label>
+    <div class="controls">
+     <span id="game-fr-down"></span>
+    </div>
+    </div>
+	
+<div class="control-group">
+    <label class="control-label">Select Tier:</label>
+    <div class="controls">
+     <span id="riers-drop-down-c">
+	 
+	 </span>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Players Per Team:</label>
+    <div class="controls">
+    <input  type="number" id="ppt"/>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Points:</label>
+    <div class="controls">
+    <textarea id="point"></textarea>
+    </div>
+    </div>
+	
+	
+	
+	<div class="control-group">
+    <label class="control-label">Rules:</label>
+    <div class="controls">
+    <textarea id="rule"></textarea>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Prizes:</label>
+    <div class="controls">
+    <textarea id="pez"></textarea>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Others:</label>
+    <div class="controls">
+    <textarea id="otr"></textarea>
+    </div>
+    </div>
+	
+</form>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button id="adc" class="btn btn-primary" onclick="addnewcomp()">Save</button>
+<button id="udc" class="btn btn-primary" style="display: none" onclick="updatnewcomp()">Update</button>
+</div>
+
+</div>
+
+
+
+
+<div id="fixtures"  class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add Fixture</h3>
+</div>
+<div class="modal-body">
+  <div class="clone_me"  class="input-append ">
+    <input type="text" id="datetimepicker_1" name="fixture[]" placeholder="dd/mm/yyyy">
+  </div>
+
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button id="adc" class="btn btn-primary" onclick="addfixture()">Save</button>
+</div>
+
+</div>
+
+
+
+
+
+<div style="display: none" id="console-drop-game">
+
+</div>
+
+</div> 
+
+<div id="matchmodal"  class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add Match</h3>
+</div>
+<div class="modal-body">
+
+    <form class="form-horizontal" id="comp-mem-form">
+<div class="control-group">
+    <label class="control-label">Select Comptetion:</label>
+    <div class="controls">
+     <span id="game-comp-down"> </span>
+    </div>
+    </div>
+	
+	
+	<div class="control-group">
+    <label class="control-label">Select Time:</label>
+    <div class="controls">
+      <input type="text" id="datetimepickerm" placeholder="dd/mm/yyyy">
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Select Team -1:</label>
+    <div class="controls">
+      <span id="team-1-list"></span>
+    </div>
+    </div>
+	
+	
+	<div class="control-group">
+    <label class="control-label">Select Team -2:</label>
+    <div class="controls">
+     <span id="team-2-list"> </span>
+    </div>
+    </div>
+	
+	
+	<div class="control-group">
+    <label class="control-label">Select Winner:</label>
+    <div class="controls">
+     <select id="winer">
+	 	
+	<option value="0"> No Result (default)</option>
+	<option value="1"> Team 1</option>
+	<option value="2"> Team 2</option>
+	<option value="3"> Draw  </option>
+	 </select>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Results summary:</label>
+    <div class="controls">
+     <input id="ress"  type="text" placeholder="results summary"/>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Results Deatail:</label>
+    <div class="controls">
+    <textarea id="resdetail">
+		
+	</textarea>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Team 1 Score:</label>
+    <div class="controls">
+     <input id="team1s"  type="number" placeholder="Team 1 Score"/>
+    </div>
+    </div>
+	
+	
+	<div class="control-group">
+    <label class="control-label">Team 2 Score:</label>
+    <div class="controls">
+     <input id="team2s"  type="number" placeholder="Team 2 Score"/>
+    </div>
+    </div>
+
+
+<div class="control-group">
+    <label class="control-label">Team 1 acceptance:</label>
+    <div class="controls">
+     <select id="t1ac">
+	<option value="0">Game In Progress</option>
+	<option value="1">Scores Approved</option>
+	<option value="2">Scores Disputed</option>
+	 </select>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Team 2 acceptance:</label>
+    <div class="controls">
+         <select id="t2ac">
+	<option value="0">Game In Progress</option>
+	<option value="1">Scores Approved</option>
+	<option value="2">Scores Disputed</option>
+	 </select>
+    </div>
+    </div>
+	
+	
+	<div class="control-group">
+    <label class="control-label">match completed:</label>
+    <div class="controls">
+     <input id="match_completed"  type="checkbox"/>
+    </div>
+    </div>
+	
+
+
+
+
+	</form>
+ </div>
+ 
+
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button id="adcm" class="btn btn-primary" onclick="addMatch()">Save</button>
+<button id="aduo" style="display: none" class="btn btn-primary" onclick="updateMatch()">Update</button>
+</div>
+
+</div>
+
+
+<div id="laddersmodal"  class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add Ladders</h3>
+</div>
+<div class="modal-body">
+
+    <form class="form-horizontal" id="comp-lad-form">
+
+
+
+ 	
+ 	<div class="control-group">
+    <label class="control-label">Select Team</label>
+    <div class="controls">
+  <span id="lteamdrop">
+  
+  </span>
+    </div>
+    </div>
+	
+	
+	<div class="control-group">
+    <label class="control-label">Select Competition</label>
+    <div class="controls">
+  <span id="lcompdrop">
+  
+  </span>
+    </div>
+    </div>
+ 	
+ 	
+ 	
+
+
+	<div class="control-group">
+    <label class="control-label">Matches played:</label>
+    <div class="controls">
+     <input id="matches_played"  type="text" placeholder="matches played"/>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Match wins:</label>
+    <div class="controls">
+     <input id="match_wins"  type="text" placeholder="match wins"/>
+    </div>
+    </div>
+	<div class="control-group">
+    <label class="control-label">Match losses:</label>
+    <div class="controls">
+     <input id="match_losses"  type="text" placeholder="match losses"/>
+    </div>
+    </div>
+	
+	<div class="control-group">
+    <label class="control-label">Match draws:</label>
+    <div class="controls">
+     <input id="match_draws"  type="text" placeholder="match draws"/>
+    </div>
+    </div>
+	
+	
+	<div class="control-group">
+    <label class="control-label">Match Points For:</label>
+    <div class="controls">
+     <input id="match_points_for"  type="text" placeholder="match points for"/>
+    </div>
+    </div>
+	<div class="control-group">
+    <label class="control-label">Match Points Against:</label>
+    <div class="controls">
+     <input id="match_points_against"  type="text" placeholder="match points against"/>
+    </div>
+    </div>
+	<div class="control-group">
+    <label class="control-label">Ladder Points:</label>
+    <div class="controls">
+     <input id="ladder_points"  type="text" placeholder="ladder points"/>
+    </div>
+    </div>
+	
+	
+	</form>
+ </div>
+ 
+
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button id="adcml" class="btn btn-primary" onclick="addlad()">Save</button>
+<button id="aduol" style="display: none" class="btn btn-primary" onclick="updateLad()">Update</button>
+</div>
+
+</div>
+
+
+
+
+<div style="display: none" id="console-drop-game">
+
+</div>
+
+</div> 
+
+<div id="notesmodel"  class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<h3 id="myModalLabel">Add Notes</h3>
+</div>
+<div class="modal-body">
+<div>
+	 <div class="panel-body" style="height:150px;overflow: auto;">
+                <ul class="list-group notes_list_ul" style="list-style: none">
+                    
+                </ul>
+       
+            </div>
+</div>
+<label>Note</label>
+    <textarea id="notesdetail" name="notesdetail" ></textarea>
+  </div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+<button id="adcml" class="btn btn-primary" onclick="addnotes()">Save</button>
+</div>
+</div>
+</div> 
+	   
+	   <!-- container -->
+<link rel="stylesheet" href="css/datepicker.css">
+<script type="text/javascript" src="js/game.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+</body>
+</html>
